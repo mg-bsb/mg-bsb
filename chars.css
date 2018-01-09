@@ -32,8 +32,9 @@ BODY {
   background:#000;
 }
 .char-info {
-  -webkit-transform: scale(0);
-  transform: scale(0);
+  /*-webkit-transform: scale(0);*/
+  /*transform: scale(0);*/
+  display: none;
   position: absolute;
   z-index: 10;
   width:240px;
@@ -46,8 +47,8 @@ BODY {
   pointer-events:none;
   box-shadow:1px 1px 3px rgba(0,0,0,.3);
   opacity: 0;
-  transition: all .4s;
-  visibility: hidden;
+  /*transition: all .4s;*/
+  /*visibility: hidden;*/
 }
 .char-info._right {
   left:auto;
@@ -64,10 +65,11 @@ BODY {
   bottom: 0;
 }
 .char:hover .char-info {
-  -webkit-transform: scale(1);
-  transform: scale(1);
+  display: block;
+  /*-webkit-transform: scale(1);*/
+  /*transform: scale(1);*/
   opacity: 1;
-  visibility: visible;
+  /*visibility: visible;*/
 }
 .char-info .char-img {
   width:60px;
