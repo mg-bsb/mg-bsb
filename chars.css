@@ -39,19 +39,25 @@ BODY {
   min-height:110px;
   padding:10px;
   margin:0px;
-  top:-5px;
-  left:-5px;
+  top:0;
+  left:0;
   background-color:#fff;
   pointer-events:none;
   box-shadow:1px 1px 3px rgba(0,0,0,.3);
 }
 .char-info._right {
   left:auto;
-  right:-5px;
+  right:0;
 }
 .char-info._center {
-  margin:0px 0px 0px -130px;
+  margin:0px 0px 0px -120px;
   left:50%;
+}
+.char:nth-child(7) .char-info,
+.char:nth-child(8) .char-info,
+.char:nth-child(9) .char-info {
+  top: auto;
+  bottom: 0;
 }
 .char:hover .char-info {
   display: block;
