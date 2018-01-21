@@ -1,0 +1,290 @@
+* {
+  padding:0;
+  margin:0;
+}
+BODY {
+  font-family:"Comic Sans MS",Arial,sans-serif;
+  color: #000;
+  background: #fff;
+  padding: 0 10px;
+}
+.AttMessage1 {
+  position: absolute;
+}
+.flwin {
+  display: none;
+}
+.withfloat:hover .flwin {
+  display: block;
+  left: 20px;
+  position: absolute;
+  z-index: 10;
+  text-align: left;
+  text-decoration: none;
+}
+.chars {
+  background:#fff;
+  margin-bottom: 20px;
+}
+.char {
+  padding:10px;
+  border-top:1px solid #ccc;
+}
+.char-info {
+  overflow: hidden;
+}
+.char-img {
+  width:60px;
+  float:left;
+  margin:0px 5px 5px 0;
+  vertical-align:top;
+  border:1px solid #000;
+  border-radius:50%;
+  background:#000;
+}
+.char-name {
+   font-size:12px;
+   font-weight:bold;
+   color:#C2411F;
+   line-height:16px;
+   text-transform:uppercase;
+   margin-bottom:4px;
+   margin-left: 65px;
+}
+.char-desc {
+  color:#000;
+  text-align:left;
+  font-size:11px;
+  line-height:12px;
+  margin-left: 65px;
+}
+.main {
+  background:#57CFBA url('http://wtf-mg-bsb.diary.ru/userdir/3/3/5/5/3355946/85271513.jpg') 50% 0% repeat;font-size:16px;padding:10px;max-width:580px;margin:0px auto;text-decoration:none!important;
+}
+.wrapper {
+  background-color:#1c1c1c;padding:30px 5% 5px;color:#FEDB90;font-family:'Comic Sans MS',Arial,sans-serif;
+}
+.head {
+  width:100%;min-width:200px;max-width:522px;display:block;margin-bottom:20px;
+}
+.content {
+  position: relative;
+}
+.cloud-main {
+  max-width:490px;margin:0px auto 11px;
+}
+.cloud-main img {
+  width:100%;max-width:490px;vertical-align:top;
+}
+.rain-cnt {
+  display:flex;justify-content:space-between;overflow:hidden;margin-bottom:12px;
+}
+.rain-l {
+  float:left;flex:0 1 92px;max-width:92px;margin-right:19px;padding-top:28px;
+}
+.rain-l img {
+  width:92px;vertical-align:top;margin-bottom:28px;
+}
+.rain-l__text {
+  font-size:14px;line-height:19px;color:#57CFBA;text-align:left;
+}
+.rain-c {
+  float:left;flex:0 1 292px;max-width:292px;margin-right:19px;
+  text-align: center;
+}
+.rain-c img {
+  width: 100%;max-width:292px;vertical-align:top;
+}
+.rain-r {
+  float:left;flex:0 1 98px;max-width:98px;padding-top:45px;text-align:center;
+}
+.rain-r img {
+  width:58px;vertical-align:top;margin-bottom:33px;
+}
+.rain-r__text {
+  font-size:14px;line-height:19px;color:#D19A96;text-align:right;
+}
+.card {
+  background:#fff;min-height:520px;position:relative;color:#000;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.card-bg {
+  width:522px;vertical-align:top;top:0px;left:0px;
+  position: absolute;
+}
+.card-cnt {
+  padding-left:42%;
+}
+.card-text {
+  font-size:11px;line-height:14px;padding:10px;text-align:right;min-height: 120px;
+}
+.card-img {
+  position: relative;
+}
+.card-vv {
+  background-image: url('https://img-fotki.yandex.ru/get/931298/353334569.9/0_347e14_ddf54792_XXXL.jpg');
+}
+.card-mt {
+  background-image: url('https://img-fotki.yandex.ru/get/476913/353334569.9/0_347e32_dfca314_XXXL.jpg');
+}
+.card-ex {
+  background-image: url('https://img-fotki.yandex.ru/get/914565/353334569.9/0_347e9f_b8165836_XXXL.jpg');
+}
+.card-bsb {
+  background-image: url('https://img-fotki.yandex.ru/get/370846/353334569.9/0_347f74_56d83fce_XXXL.png');
+}
+.card-mg {
+  background-image:  url('https://img-fotki.yandex.ru/get/877700/353334569.9/0_347eb1_6b59cf5d_XXXL.jpg');
+}
+.card-sz {
+  background-image: url('https://img-fotki.yandex.ru/get/767452/353334569.a/0_34a317_2b479a9e_XXXL');
+}
+.card-mh {
+  background-image: url('https://img-fotki.yandex.ru/get/373238/353334569.9/0_347ea1_a0c1ab4c_XXXL.jpg');
+}
+.card-vv .logo {
+  width:52px;
+  vertical-align:top;
+  top:2px;
+  left:197px;
+  position: absolute;
+}
+.card-vv .card-text {
+  padding-left: 40px;
+}
+.card-mt .logo {
+  width:15px;vertical-align:top;top:10px;left:178px;
+  position: absolute;
+}
+.card-mg .card-text {
+  padding-left: 80px;
+}
+.card-sz .card-text {
+  padding-left: 50px;
+}
+.card-bsb .card-text {
+  font-size: 10px;
+}
+.crossover {
+  display:flex;justify-content:space-between;overflow:hidden;
+}
+.crossover-l {
+  float:left;flex:0 1 80px;max-width:80px;margin-right:8px;padding-top:8px;font-size:12px;line-height:16px;color:#FEDB90;text-align:left;
+}
+.crossover-c {
+  float:left;flex:0 1 351px;max-width:351px;margin-right:10px;position:relative;
+}
+.crossover-c img {
+  width: 100%;max-width:351px;vertical-align:top;
+}
+.crossover-r {
+  float:left;flex:0 1 67px;max-width:67px;padding-top:8px;font-size:12px;line-height:16px;color:#FEDB90;text-align:right;
+}
+.logos {
+  position:relative;margin-bottom:20px;
+}
+.logos img {
+  width: 100%;max-width:531px;vertical-align:top;
+}
+@media all and (max-width: 620px) {
+  BODY {
+    padding: 0;
+  }
+  .rain-cnt {
+    display: block;
+  }
+  .rain-l {
+    float: none;
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 20px;
+    margin: 0;
+  }
+  .rain-l img {
+    flex: 0 1 92px;
+    margin: 0 10px 0 0;
+  }
+  .rain-c {
+    float: none;
+    max-width: 100%;
+    margin-right: 0;
+  }
+  .rain-r {
+    float: none;
+    max-width: 100%;
+    margin-right: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .rain-r img {
+    flex: 0 1 58px;
+    margin: 0 10px 0 0;
+  }
+  .card {
+    min-height: 0;
+  }
+  .card-cnt {
+    padding-left:39%;
+  }
+  .card-bg {
+    width: 100%;
+    max-width:522px;
+  }
+  .card-img {
+    display: none;
+  }
+  .card .logo {
+    display: none;
+  }
+  .card-text {
+    min-height: 0;
+    padding-left: 10px !important;
+  }
+  .card-bsb .card-cnt {
+    padding-left: 42%;
+  }
+  .card-bsb .card-text {
+    font-size: 9px;
+    line-height: 13px;
+  }
+  .card-sz .card-cnt {
+    padding-left: 42%;
+  }
+  .card-mg .card-cnt {
+    padding-left: 42%;
+  }
+  .crossover {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+  }
+  .crossover-l {
+    float: none;
+    max-width: 100%;
+    flex: 1 1 100%;
+    margin: 0;
+    padding: 0 0 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .crossover-c {
+    float: none;
+    max-width: 100%;
+    flex: 1 1 100%;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .crossover-r {
+    float: none;
+    max-width: 100%;
+    flex: 1 1 100%;
+    padding: 0 0 10px;
+    width: 100%;
+    text-align: center;
+  }
+}
